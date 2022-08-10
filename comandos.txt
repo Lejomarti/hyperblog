@@ -1,0 +1,49 @@
+git init- inicializa el repositorio de git
+git add . – Agrega todos los cambios en todos los archivos al área de staging
+git status – Para ver el estado de la BD sí se han hecho cambios, pero no se han agregado, ahí saldrá
+git show - Muestra todos los cambios históricos hechos y sus detalles (qé cambió, cuándo y quién los hizo)
+git commit -m -Agrega definitivamente los cambios hechos al repositorio, se puede poner un comentario para indicar que cambió
+git push -envía los cambios al repositorio remoto
+git pull -Agrega los cambios del commit más nuevo al repositorio local
+git checkout: traer cambios realizados
+git rm --cached archivo.extensión: se utiliza para devolver el archivo que se tiene en ram. Cuando escribimos git add, lo devuelve a estado natural mientras está en staging.
+git config --list: muestra la lista de configuración de git
+git config --list --show-origin: rutas de acceso a la configuración de git
+git log archivo.extensión: muestra la historia del archivo
+git diff extención1 extención2 : me compara dos versiones del git, del archivo la extención se encuentra con git log
+
+
+
+
+
+/////////////////
+pwd: Nos muestra la ruta de carpetas en la que te encuentras ahora mismo.
+
+mkdir: Nos permite crear carpetas (por ejemplo, mkdir Carpeta-Importante).
+
+touch: Nos permite crear archivos (por ejemplo, touch archivo.txt).
+touch archivo.extensión: crear archivo vacío
+
+rm: Nos permite borrar un archivo o carpeta (por ejemplo, rm archivo.txt). Mucho cuidado con este comando, puedes borrar todo tu disco duro.
+rm archivo.extensión: Eliminación de archivo
+
+cat: Ver el contenido de un archivo (por ejemplo, cat nombre-archivo.txt).
+
+ls: Nos permite cambiar ver los archivos de la carpeta donde estamos ahora mismo. Podemos usar uno o más argumentos para ver más información sobre estos archivos (los argumentos pueden ser -- + el nombre del argumento o - + una sola letra o shortcut por cada argumento).
+- ls -a: Mostrar todos los archivos, incluso los ocultos.
+- ls -l: Ver todos los archivos como una lista.
+
+cd: Nos permite navegar entre carpetas.
+- cd /: Ir a la ruta principal:
+- cd o cd ~: Ir a la ruta de tu usuario
+- cd carpeta/subcarpeta: Navegar a una ruta dentro de la carpeta donde estamos ahora mismo.
+- cd .. (cd + dos puntos): Regresar una carpeta hacia atrás.
+- Si quieres referirte al directorio en el que te encuentras ahora mismo puedes usar cd . (cd + un punto).
+
+history: Ver los últimos comandos que ejecutamos y un número especial con el que podemos repetir su ejecución.
+
+! + número: Ejecutar algún comando con el número que nos muestra el comando history (por ejemplo, !72).
+
+clear: Para limpiar la terminal. También podemos usar los atajos de teclado Ctrl + L o Command + L.
+
+comando --help: ayuda sobre el comando
