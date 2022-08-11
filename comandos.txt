@@ -28,7 +28,8 @@ git remote add origin [URL]	-te permite enlazarte con github
 git remote 			-indica si si existe el origin
 git remote -v			- muestra verbalmente las direcciones para hacer fetch o push
 git push origin master		-enviarle al origen la rama master
-
+git pull origin master		-se trae los cambios y cosas desde github
+git pull origin main --allow-unrelated-histories		-permite fusionar los nuevos archivos del github con tu repositorio local
 
 /////////////////
 pwd: Nos muestra la ruta de carpetas en la que te encuentras ahora mismo.
